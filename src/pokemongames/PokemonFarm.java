@@ -11,7 +11,8 @@ import java.util.ArrayList;
  */
 
 public class PokemonFarm {
-    private ArrayList<Pokemon> pokemons;
+        private ArrayList<Pokemon> pokemons;
+        
 	public PokemonFarm(){
 		pokemons = new ArrayList<Pokemon>();
 	}
@@ -19,9 +20,7 @@ public class PokemonFarm {
 	public void addPokemon(Pokemon pokemon){
 		pokemons.add(pokemon);
 	}
-
-	
-
+        
 	public void list(){
 		for(Pokemon pokemon: pokemons){
 			pokemon.print();
@@ -77,6 +76,5 @@ public class PokemonFarm {
                         }
                 }
 	}
-    
-    
+   
 }

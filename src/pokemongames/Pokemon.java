@@ -11,7 +11,7 @@ package pokemongames;
  */
 public class Pokemon {
         private String name;
-    private float weight;
+        private float weight;
 	private float stepLength;
 	private int step;
 	private float gainingWeightStep;

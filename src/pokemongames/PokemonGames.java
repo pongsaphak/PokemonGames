@@ -15,7 +15,6 @@ public class PokemonGames {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
         PokemonFarm pokemonFarm = new PokemonFarm();
 	CommandParser commandParser = new CommandParser(pokemonFarm);
 
