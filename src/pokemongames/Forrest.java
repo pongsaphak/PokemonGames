@@ -70,8 +70,8 @@ private void addPokemon(String type){
 			bag.addPokemon(snorlax);
                 }   
                 else if(type.equals("Pikaju")){
-			Pikaju pikaju = new Pikaju(name, weight, stepLength);
-			bag.addPokemon(pikaju);
+			Pikachu pikachu = new Pikachu(name, weight, stepLength);
+			bag.addPokemon(pikachu);
                 }
 
 	}
