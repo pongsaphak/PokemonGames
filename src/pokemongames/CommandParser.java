@@ -78,8 +78,8 @@ public class CommandParser {
 			pokemonFarm.addPokemon(snorlax);
                 }   
                 else if(pokemonType.equals("Pikaju")){
-			Pikaju pikaju = new Pikaju(name, weight, stepLength);
-			pokemonFarm.addPokemon(pikaju);
+			Pikachu pikachu = new Pikachu(name, weight, stepLength);
+			pokemonFarm.addPokemon(pikachu);
                 }
 
 	}
