@@ -101,11 +101,9 @@ public class CommandParser {
                 else{
                         this.pokemonFarm.feed(name);
                 }
-                
 	}
         private void walkPokemons(){
-            
-                
+
                 System.out.print("Which pokemon do you want to walk? ");
 		String name = this.commandScanner.next();
 		if(name.equals("all")){
@@ -142,8 +140,7 @@ public class CommandParser {
                     else if(want.equals("quit")){
                         this.bag = new Bag();
                         bag.addToFarm();
-                        
-                        
+
                         i = 0;
                     }
                 }
