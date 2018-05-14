@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Core I7
+ * @author user
  */
 public class Bag {
     private PokemonFarm farm;
